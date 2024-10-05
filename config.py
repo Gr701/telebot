@@ -1,6 +1,6 @@
 from PIL import Image
 
-TOKEN = '1254150190:AAGCuLbw9BAsiiw-xDlsIcstIyUpMe02aKY'
+TOKEN = '*********************************************'
 
 sotrudnik_image = Image.open('сотрудник.png')
 sotrudnik_wasted_image = Image.open('сотрудник_потрачено.png')
