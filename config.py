@@ -1,7 +1,5 @@
 from PIL import Image
 
-TOKEN = '*********************************************'
-
 sotrudnik_image = Image.open('сотрудник.png')
 sotrudnik_wasted_image = Image.open('сотрудник_потрачено.png')
 burokrat_image = Image.open('бюрократ.png')

@@ -1,11 +1,12 @@
 import telebot
 import config
+import api_token
 from deck import Deck
 from telebot import types
 from game import Game
 from game import Player
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(api_token.TOKEN)
 global is_game, is_starting, markup_action, markup_help, markup_block, markup_check, markup_block_check, is_player_turn, nothing_number, action_images
 
 action_images = config.action_images

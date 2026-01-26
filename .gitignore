@@ -1,0 +1,13 @@
+#vim
+session.vim
+
+#pyvenv
+lib
+include
+lib64
+bin
+pyvenv.cfg
+__pycache__
+
+#telebot
+api_token.py
