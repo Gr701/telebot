@@ -1,25 +1,25 @@
 from PIL import Image
 
-sotrudnik_image = Image.open('сотрудник.png')
-sotrudnik_wasted_image = Image.open('сотрудник_потрачено.png')
-burokrat_image = Image.open('бюрократ.png')
-burokrat_wasted_image = Image.open('бюрократ_потрачено.png')
-rieltor_image = Image.open('риелтор.png')
-rieltor_wasted_image = Image.open('риелтор_потрачено.png')
-gyrnalist_image = Image.open('журналист.png')
-gyrnalist_wasted_image = Image.open('журналист_потрачено.png')
-notarius_image = Image.open('нотариус.png')
-notarius_wasted_image = Image.open('нотариус_потрачено.png')
+sotrudnik_image = Image.open('images/сотрудник.png')
+sotrudnik_wasted_image = Image.open('images/сотрудник_потрачено.png')
+burokrat_image = Image.open('images/бюрократ.png')
+burokrat_wasted_image = Image.open('images/бюрократ_потрачено.png')
+rieltor_image = Image.open('images/риелтор.png')
+rieltor_wasted_image = Image.open('images/риелтор_потрачено.png')
+gyrnalist_image = Image.open('images/журналист.png')
+gyrnalist_wasted_image = Image.open('images/журналист_потрачено.png')
+notarius_image = Image.open('images/нотариус.png')
+notarius_wasted_image = Image.open('images/нотариус_потрачено.png')
 
-pribil_image = Image.open('прибыль.png')
-resursi_image = Image.open('ресурсы.png')
-vzyatka_image = Image.open('взятка.png')
-obman_image = Image.open('обман.png')
-pluralizm_image = Image.open('плюрализм.png')
-zaveshane_image = Image.open('завещание.png')
-perestroika_image = Image.open('перестройка.png')
+pribil_image = Image.open('images/прибыль.png')
+resursi_image = Image.open('images/ресурсы.png')
+vzyatka_image = Image.open('images/взятка.png')
+obman_image = Image.open('images/обман.png')
+pluralizm_image = Image.open('images/плюрализм.png')
+zaveshane_image = Image.open('images/завещание.png')
+perestroika_image = Image.open('images/перестройка.png')
 action_images = {'прибыль': pribil_image, 'ресурсы': resursi_image, 'взятка': vzyatka_image, 'обман': obman_image, 'плюрализм': pluralizm_image, 'завещание': zaveshane_image, 'перестройка': perestroika_image}
-win_image = Image.open('победа.png')
+win_image = Image.open('images/победа.png')
 
 CARDS = [
          {'id': 1, 'image': sotrudnik_image, 'wasted_image': sotrudnik_wasted_image, 'name': 'Сотрудник ОБХСС', 'action':'ресурсы', 'description': 'Ресурсы. \nВозьмите 1 монету из бюджета. Совершите дополнительное действие. Нельзя использовать эту карту 2 раза в течение одного хода.'}, 
