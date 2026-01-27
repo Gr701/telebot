@@ -5,13 +5,15 @@ The game focuses on the ability to trick others and use the actions you have no 
 
 ## How to start the bot
 
-To start the bot you need to create an 'api\_token.py' file in the src directory and paste your token there as a 'TOKEN' string variable. Then you can run the 'src/main.py' from the root directory and the bot will start.
+* Create an `api\_token.py` file in the src directory and paste your token there as a `TOKEN = ''` string variable. 
+* Install `Pillow` and `Telebot` packages with `pip`. 
+* Then you can run the `src/main.py` from the project's root directory and the bot will start.
 
 ## How to play 
 
-* Create a new game with '/newgame' command.
-* Wait for other players to write '/join' to the bot.
-* Start the game with '/start' command and enjoy the game.
+* Create a new game with `/newgame` command.
+* Wait for other players to write `/join` to the bot.
+* Start the game with `/start` command and enjoy the game.
 
 ## Development
 
