@@ -5,7 +5,7 @@ The game focuses on the ability to trick others and use the actions you have no 
 
 ## How to start the bot
 
-* Create an `api\_token.py` file in the src directory and paste your token there as a `TOKEN = ''` string variable. 
+* Create an `api_token.py` file in the src directory and paste your token there as a `TOKEN = ''` string variable. 
 * Install `Pillow` and `Telebot` packages with `pip`. 
 * Then you can run the `src/main.py` from the project's root directory and the bot will start.
 
